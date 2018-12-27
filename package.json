@@ -1,0 +1,27 @@
+{
+  "name": "deploy-subs",
+  "version": "1.0.1",
+  "description": "deploy subdirectories as branches",
+  "bin": "index.js",
+  "main": "deploy-subs.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRJurman/deploy-subs.git"
+  },
+  "author": {
+    "name": "Jesse Jurman",
+    "email": "j.r.jurman@gmail.com",
+    "url": "https://github.com/jrjurman"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JRJurman/deploy-subs/issues"
+  },
+  "homepage": "https://github.com/JRJurman/deploy-subs#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "gh-pages": "^2.0.1"
+  }
+}
